@@ -1,0 +1,11 @@
+{
+  "pages": 8,
+  "visual_review": "8 rendered pages reviewed; tables, plots, text and footer legible; no clipping observed",
+  "analyzed_session": "2026-10-16T22-31-26",
+  "original_csv_files": 6,
+  "runs": 6,
+  "entities": 1000,
+  "raw_frames": 14229,
+  "preliminary_runs_excluded": true,
+  "movie_runs_excluded": true
+}

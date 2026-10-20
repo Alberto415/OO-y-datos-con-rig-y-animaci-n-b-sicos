@@ -1,0 +1,40 @@
+{
+	"capture": "Time.get_ticks_usec; buffered per frame; CSV after run; no profiler CPU capture",
+	"cpu": "AMD Ryzen 7 5700X 8-Core Processor",
+	"debug_build": true,
+	"demo": false,
+	"draws": 2177,
+	"driver": "opengl3",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"entities": 1000,
+	"gpu": "NVIDIA GeForce RTX 4060",
+	"logical_cpus": 16,
+	"measurement_s": 30.0,
+	"memory": {
+		"available": 28912959488,
+		"free": 2155397120,
+		"physical": 17101799424,
+		"stack": 8388608
+	},
+	"os": "Windows",
+	"output": "C:/Users/gokuf/Documents/tarea-2-oo-y-datos-con-rig-y-animación-básicos/results/2026-10-16T22-31-26_02_DATOS.csv",
+	"renderer": "gl_compatibility",
+	"run": 2,
+	"samples": 1877,
+	"seed": 20261016,
+	"variant": "DATOS",
+	"viewport": "(1280.0, 720.0)",
+	"vsync": 0,
+	"wall_total_s": 35.004561,
+	"warmup_s": 5.0
+}

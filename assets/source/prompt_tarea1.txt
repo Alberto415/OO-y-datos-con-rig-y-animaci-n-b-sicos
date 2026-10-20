@@ -1,0 +1,15 @@
+SOLICITUD EXACTA DE ALBERTO (2026-10-06)
+que se vea mejor el juego, algo diferentes, no se como un personaje y escenario como un mejor parkour
+
+DIRECCIÓN DE ARTE COMUNICADA Y APLICADA
+Le daré una estética de azoteas flotantes al atardecer: un pequeño corredor con
+casco, mochila y animación al correr, plataformas con bordes luminosos, cristales
+para recoger y puntos de control. También añadiré cronómetro y reinicio desde
+el último punto de control para que las caídas no obliguen a empezar de cero.
+
+HERRAMIENTA Y ALCANCE
+Asistencia de Codex para diseño y código; geometría creada por Python y primitivas
+nativas de Godot 4.7.2. No hubo envío de prompt ni exportación desde Tripo/Meshy.
+La alternativa de recurso original de práctica fue autorizada por Alberto.
+No aplican semilla de servicio 3D, créditos de generación ni versión de Tripo/Meshy.
+La distribución de edificios usa random.Random(17) en el generador local.

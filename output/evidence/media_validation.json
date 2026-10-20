@@ -1,0 +1,24 @@
+[
+  {
+    "file": "benchmark.mp4",
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30.0,
+    "duration_s": 40.03,
+    "decoded_frames": 1201,
+    "bytes": 36792633
+  },
+  {
+    "file": "animacion.mp4",
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30.0,
+    "duration_s": 70.03,
+    "decoded_frames": 2101,
+    "bytes": 2055613
+  }
+]

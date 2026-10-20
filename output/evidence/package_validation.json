@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "clean_cache_at_start": true,
+  "csv_files_created": 6,
+  "checks": [
+    {
+      "check": "import_from_empty_cache",
+      "pass": true,
+      "exit_code": 0,
+      "stdout_tail": "NE ]\u001b[39m \u001b[1m_update_scan_actions\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started (Re)Importación de Assets (2 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Preparando archivos para reimportarlos...\u001b[39m\u001b[0m\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | Preparando archivos para reimportarlos...\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Ejecutando operaciones de pre-reimportación...\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mpreload_reimporting_scene\u001b[22m | Started Preparando escenas para recargar (1 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mpreload_reimporting_scene\u001b[22m | Analizando escena [vacío]\u001b[39m\u001b[0m\n[  50% ] \u001b[90m\u001b[1mpreload_reimporting_scene\u001b[22m | Preparación terminada.\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mpreload_reimporting_scene\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | icon.svg\u001b[39m\u001b[0m\n[  33% ] \u001b[90m\u001b[1mreimport\u001b[22m | courier_rig.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Importar Escena (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importando Escena...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Ejecutando Script Personalizado...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Guardando...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  66% ] \u001b[90m\u001b[1mreimport\u001b[22m | Finalizando la importación de recursos...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started (Re)Importación de Assets (2 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Ejecutando operaciones post-reimportación...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started Cargando editor (5 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Cargando diseño del editor...\u001b[39m\u001b[0m\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Cargando docks...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\n\u001b[0m\n",
+      "stderr": ""
+    },
+    {
+      "check": "1000_entity_equivalence",
+      "pass": true,
+      "exit_code": 0,
+      "stdout_tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nPASS: 1000 entities x 2100 steps, max position error = 0.0\n",
+      "stderr": ""
+    },
+    {
+      "check": "imported_character_scene",
+      "pass": true,
+      "exit_code": 0,
+      "stdout_tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 3.3.0 NVIDIA 617.42 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060\n\nIMPORTED GLB clips=[\"Idle\", \"Jump\", \"Walk\"] bones=6\n",
+      "stderr": ""
+    },
+    {
+      "check": "rendered_csv_smoke",
+      "pass": true,
+      "exit_code": 0,
+      "stdout_tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 3.3.0 NVIDIA 617.42 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060\n\nRUN 1 OO warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_01_OO samples=36\nRUN 2 DATOS warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_02_DATOS samples=38\nRUN 3 DATOS warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_03_DATOS samples=34\nRUN 4 OO warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_04_OO samples=36\nRUN 5 OO warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_05_OO samples=35\nRUN 6 DATOS warmup=0.2 measure=0.5\nSAVED res://tmp/clean_smoke/2026-10-16T22-35-59_06_DATOS samples=34\n",
+      "stderr": ""
+    }
+  ],
+  "note": "Smoke comprueba reproducción y guardado; los CSV de 0.5 s se excluyen del informe."
+}

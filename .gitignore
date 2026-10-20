@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/tmp/
+/tarea1-referencia/
+/output/evidence/*.avi
+/output/*.zip
+*.pyc
+__pycache__/

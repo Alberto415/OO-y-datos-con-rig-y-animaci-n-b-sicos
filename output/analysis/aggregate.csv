@@ -1,0 +1,7 @@
+variant,metric,median_of_run_medians_ms,q1_run_medians_ms,q3_run_medians_ms,min_run_median_ms,max_run_median_ms
+OO,movement_block_ms,0.389,0.3725,0.4405,0.356,0.492
+OO,snapshot_ms,0.099,0.098,0.125,0.097,0.151
+OO,frame_wall_ms,10.416,10.279,13.6495,10.142,16.883
+DATOS,movement_block_ms,0.086,0.08449999999999999,0.086,0.083,0.086
+DATOS,snapshot_ms,0.047,0.0465,0.047,0.046,0.047
+DATOS,frame_wall_ms,14.997,12.3515,15.354,9.706,15.711

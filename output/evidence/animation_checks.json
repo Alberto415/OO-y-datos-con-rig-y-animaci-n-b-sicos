@@ -1,0 +1,50 @@
+{
+	"bone_count": 6,
+	"clip_seconds": {
+		"Idle": 20.1070879090915,
+		"Jump": 19.9986822424248,
+		"Walk": 19.9999958484854
+	},
+	"finite_poses": true,
+	"pass": true,
+	"root_drift_max": 0.0,
+	"source": "imported GLB",
+	"transitions": [
+		{
+			"at_s": 10.0042409090907,
+			"blend_s": 0.2,
+			"from": "Idle",
+			"to": "Walk"
+		},
+		{
+			"at_s": 20.0044957575765,
+			"blend_s": 0.2,
+			"from": "Walk",
+			"to": "Jump"
+		},
+		{
+			"at_s": 30.0025100000032,
+			"blend_s": 0.2,
+			"from": "Jump",
+			"to": "Idle"
+		},
+		{
+			"at_s": 40.002337000001,
+			"blend_s": 0.2,
+			"from": "Idle",
+			"to": "Walk"
+		},
+		{
+			"at_s": 50.0020779999976,
+			"blend_s": 0.2,
+			"from": "Walk",
+			"to": "Jump"
+		},
+		{
+			"at_s": 60.0027459999942,
+			"blend_s": 0.2,
+			"from": "Jump",
+			"to": "Idle"
+		}
+	]
+}
