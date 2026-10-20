@@ -131,14 +131,4 @@ Sus CSV quedan en `tmp/video` y se excluyen del análisis. El video muestra una
 corrida OO completa (5 + 30 s) y el inicio de DATOS. Los AVI pueden borrarse
 después de verificar los MP4. Las métricas del informe se capturan sin Movie Maker.
 
-## Fuentes y asistencia
 
-Documentación oficial de Godot: PackedVector2Array, Time, The Profiler,
-Skeleton3D y Creating movies; enlaces y límites en el informe.
-El [laboratorio de UAM](https://ubicua.cua.uam.mx/mod/resource/view.php?id=150718)
-no respondió al intento de consulta; hace falta revisarlo si se dispone de acceso.
-No se declara leído ni se inventa su contenido.
-
-Se declara asistencia de **Codex** para código, rig, clips, mediciones automatizadas,
-análisis y borrador de documentación. Los CSV son mediciones reales del equipo;
-Alberto debe revisar y comprender el trabajo para su entrega individual.
